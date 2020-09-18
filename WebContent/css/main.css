@@ -1,0 +1,79 @@
+*{
+  transition: 0.5s all ease;
+}
+a{
+  color: white;
+}
+body{
+  background: #003b4f;
+}
+table{
+  color: white;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+tr:nth-child(odd){
+  background: rgba(0,0,0,0.5);
+}
+.displayLogin>#registerDeo{
+  display: none;
+}
+.displayLogin>#loginDeo{
+  display: block;
+}
+.displayReg>#loginDeo{
+  display: none;
+}
+.displayReg>#registerDeo{
+  display: block;
+}
+
+#loginDeo,#registerDeo{
+  width: auto;
+  max-width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 40px;
+  border-radius: 15px;
+  background-color: #002d3c;
+  border: 1px solid #FF652F;
+  margin-top: 15%;
+}
+#loginDeo input,#registerDeo input{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  border: 1px solid #FF652F;
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+button{
+  cursor: pointer;
+  padding:8px 15px;
+  font-weight: 600;
+  outline: 0;
+}
+button:hover{
+  box-shadow: 0px 0px 2px;
+}
+#loginDeo button,#registerDeo button{
+  background-color: #333333;
+  color : #FF652F;
+  border-color:  #FF652F;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+.toggleDivs{
+  cursor: pointer;
+  color:lightgrey;
+  opacity: 0.5;
+}
+.toggleDivs:hover{
+  opacity: 1;
+}
